@@ -1,9 +1,12 @@
+---
 # meta/main.yml
 galaxy_info:
   role_name: qemu_guest_agent
   namespace: ansible_tul
   author: Jaroslav Korner
-  description: Ansible role to install and configure QEMU Guest Agent for Proxmox
+  description: >-
+    Ansible role to install and configure QEMU Guest
+    Agent for Proxmox
   license: MIT
   min_ansible_version: "2.12"
   platforms:
