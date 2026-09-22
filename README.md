@@ -44,7 +44,7 @@ Role lze přidat do playbooku takto:
       qemu_guest_agent_enabled: true
 
   roles:
-      - ansible-tul.qemu-guest-agent
+      - ansible-tul.qemu_guest_agent
 ```
 
 Případně lze proměnnou nastavit v inventáři:
@@ -57,7 +57,7 @@ qemu_guest_agent_enabled: true
 
 ```yaml
 roles:
-  - name: ansible-tul.qemu-guest-agent
+  - name: ansible-tul.qemu_guest_agent
     src: https://github.com/ansible-tul/ansible-role-qemu-guest-agent.git
 ```
 
