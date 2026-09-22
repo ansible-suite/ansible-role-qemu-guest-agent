@@ -57,8 +57,8 @@ qemu_guest_agent_enabled: true
 
 ```yaml
 roles:
-  - name: ansible-tul.qemu_guest_agent
-    src: https://github.com/ansible-tul/ansible-role-qemu-guest-agent.git
+  - name: ansible-suite.qemu_guest_agent
+    src: https://github.com/ansible-suite/ansible-role-qemu-guest-agent.git
 ```
 
 Při použití role musí mít cílový host dostupný balíčkovací systém a oprávnění pro instalaci balíčků a správu systémových služeb.
