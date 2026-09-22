@@ -41,10 +41,10 @@ Role lze přidat do playbooku takto:
   become: true
 
   vars:
-      qemu_guest_agent_enabled: true
+    qemu_guest_agent_enabled: true
 
   roles:
-      - ansible-tul.qemu_guest_agent
+    - ansible-suite.qemu_guest_agent
 ```
 
 Případně lze proměnnou nastavit v inventáři:
