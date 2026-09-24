@@ -36,6 +36,7 @@ qemu_guest_agent_enabled: true
 Role lze přidat do playbooku takto:
 
 ```yaml
+---
 - name: Instalace QEMU Guest Agent (Proxmox Tools)
   hosts: all
   become: true
