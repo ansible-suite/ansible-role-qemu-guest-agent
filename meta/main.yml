@@ -2,7 +2,7 @@
 # meta/main.yml
 galaxy_info:
   role_name: qemu_guest_agent
-  namespace: ansible_tul
+  namespace: ansible-suite
   author: Jaroslav Korner
   description: >-
     Ansible role to install and configure QEMU Guest
